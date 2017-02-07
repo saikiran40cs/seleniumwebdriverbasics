@@ -27,7 +27,7 @@
   * [Object Repository](concrete-scripts/object-repository.md)
   * [Using Properties file](concrete-scripts/using-properties-file.md)
   * [Capture Screenshot](concrete-scripts/capture-screenshot.md)
-  * Robust Xpath
+  * [Robust Xpath](concrete-scripts/robust-xpath.md)
 * [Continuous Integration](continuous-integration.md)
   * [ANT Basics](continuous-integration/ant-basics.md)
   * [Ant Build.xml](continuous-integration/ant-build.xml.md)

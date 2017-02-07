@@ -1,6 +1,6 @@
 # Tools required {#tools-required}
 
-### Mandatory tools {#mandatory-tools}
+### Mandatory tools to be installed to kickstart your learning {#mandatory-tools}
 
 * [Firefox Browser](https://www.mozilla.org/en-US/firefox/new/)
 * [Chrome Browser](https://www.google.com/chrome/browser/desktop/)
@@ -12,7 +12,7 @@
   1. Selenium Server
   2. Selenium Client Drivers \(Java\)
 
-### Required Later {#required-later}
+### Required Later for Advanced users {#required-later}
 
 * [Firebug firefox plugin](https://addons.mozilla.org/en-US/firefox/addon/firebug/)
 * [Firepath firefox plugin](https://addons.mozilla.org/en-US/firefox/addon/firepath/)

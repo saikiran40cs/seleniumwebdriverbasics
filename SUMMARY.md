@@ -13,15 +13,15 @@
   * [Assertions](assertions.md)
   * [TimeOuts](timeouts.md)
 * [Testing Frameworks for Selenium](testing-frameworks-for-selenium.md)
-  * JUnit
-  * Why TestNG over Junit
+  * [JUnit](junit.md)
+  * [Why TestNG over Junit](why-testng-over-junit.md)
   * [Sample TestNG Class](sample-testng-class.md)
 * [Selenium Advanced](selenium-advanced.md)
-  * Proxies,Profiles
-  * Handling Multiple Windows
-  * Webdriver Actions
-  * Generate Logs
-  * Javascript executor
+  * [Proxies,Profiles](selenium-advanced/proxiesprofiles.md)
+  * [Handling Multiple Windows](selenium-advanced/handling-multiple-windows.md)
+  * [Webdriver Actions](selenium-advanced/webdriver-actions.md)
+  * [Generate Logs](selenium-advanced/generate-logs.md)
+  * [Javascript executor](selenium-advanced/javascript-executor.md)
 * [Concrete Scripts](concrete-scripts.md)
   * Test Suite parameterisation
   * Object Repository

@@ -3,46 +3,19 @@
 This tutorial assumes you know how to create a TestSuite. Please visit the post[Preparing TestSuite](http://ajaymore.gitbooks.io/selenium/content/test_frameworks/testsuite.html)to learn about TestSuite. The below Suite xml file passes the parameter “browser” with value “IE” to the script it’s calling.
 
 ```
-<
-?xml version="1.0" encoding="UTF-8" standalone="yes"?
->
-<
-suite name="Test_Suite" verbose="-1" parallel="tests"
-    thread-count="1"
->
-<
-test name="Parameter_Pass-IE" preserve-order="True"
->
-<
-parameter name="browser" value="IE" /
->
-<
-classes
->
-<
-class name="testng.Parameter_Pass"
->
-<
-methods
->
-<
-include name="testParameterPass" /
->
-<
-/methods
->
-<
-/class
->
-<
-/classes
->
-<
-/test
->
-<
-/suite
->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite name="Test_Suite" verbose="-1" parallel="tests"    thread-count="1">
+<test name="Parameter_Pass-IE" preserve-order="True">
+<parameter name="browser" value="IE" />
+<classes>
+<class name="testng.Parameter_Pass">
+<methods>
+<include name="testParameterPass" />
+</methods>
+</class>
+</classes>
+</test>
+</suite>
 ```
 
 The below Script accepts parameter browser from the Suite, it uses the value if it’s provided from the suite, else it sets to default value when it’s not set by Suite. Ideally when we run standalone script the default value will be used.

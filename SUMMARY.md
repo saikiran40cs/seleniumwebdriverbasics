@@ -5,6 +5,7 @@
   * [1.1 Intro to the Tools in brief](install-tools.md)
   * [1.2 Setting classpath for Java](chapter1/setting-classpath-for-java.md)
   * [1.3 Selenium IDE](chapter1/selenium-ide.md)
+  * [1.4 Eclipse Project setup](1.4-eclipse-project-setup.md)
 * [2. Selenium For Beginners](selenium-for-beginners.md)
   * [2.1 Setting up Browsers](setting-up-browsers.md)
   * [2.2 WebDriver Locators](webdriver-locators.md)

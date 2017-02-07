@@ -29,8 +29,8 @@
   * Capture Screenshot
   * Robust Xpath
 * [Continuous Integration](continuous-integration.md)
-  * ANT Basics
-  * Ant Build.xml
+  * [ANT Basics](continuous-integration/ant-basics.md)
+  * [Ant Build.xml](continuous-integration/ant-build.xml.md)
 * [WorkArounds](workarounds.md)
   * [IE Driver NOT working](ie-driver-not-working.md)
   * [Presence of iFrames](presence-of-iframes.md)

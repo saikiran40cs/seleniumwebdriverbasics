@@ -2,5 +2,5 @@
 
 ---
 
-The tools which are required to get you started with
+The tools which are required to get you started with ...
 

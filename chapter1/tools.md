@@ -24,6 +24,8 @@
   2. The Internet Explorer Driver Server
   3. Third party browser drivers \(Chrome\)
 * [Apache ANT](http://ant.apache.org/bindownload.cgi)
+* Jenkins/Travis CI
+* Extent Reports
 
 
 

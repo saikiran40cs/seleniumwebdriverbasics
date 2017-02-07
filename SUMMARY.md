@@ -23,10 +23,10 @@
   * [Generate Logs](selenium-advanced/generate-logs.md)
   * [Javascript executor](selenium-advanced/javascript-executor.md)
 * [Concrete Scripts](concrete-scripts.md)
-  * Test Suite parameterisation
-  * Object Repository
-  * Using Properties file
-  * Capture Screenshot
+  * [Test Suite parameterisation](concrete-scripts/test-suite-parameterisation.md)
+  * [Object Repository](concrete-scripts/object-repository.md)
+  * [Using Properties file](concrete-scripts/using-properties-file.md)
+  * [Capture Screenshot](concrete-scripts/capture-screenshot.md)
   * Robust Xpath
 * [Continuous Integration](continuous-integration.md)
   * [ANT Basics](continuous-integration/ant-basics.md)

@@ -1,0 +1,48 @@
+# Waits, timeouts {#waits-timeouts}
+
+---
+
+The implicit wait command in the below code makes selenium wait maximum of 30 seconds before throwing an error. If the element is found in less than 30 seconds then the wait is stopped and the element is acted upon.
+
+```
+driver = new FirefoxDriver();
+        baseUrl = "http://seleniumhq.org/";
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+
+```
+
+In the code below we check every 1 second if the element is present. Once the element is present, the loop breaks and the element is acted upon.
+
+```
+for (int second = 0;; second++) {
+    if (second >= 60)
+         Assert.fail("timeout");
+    try {
+      if (isElementPresent(By.linkText("Download")))
+         break;
+      } catch (Exception e) {
+  }
+  Thread.sleep(1000);
+  }
+driver.findElement(By.linkText("Download")).click();
+
+```
+
+In the code below we define the wait time and wait for the element to meet the condition like being Clickable.
+
+```
+WebDriverWait wait = new WebDriverWait(driver, 10);
+WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Documentation")));
+element.click();
+
+```
+
+We can also use explicit waits using Thread.sleep method. In the code below we halt the code execution for 5 seconds.
+
+```
+Thread.sleep(5000);
+```
+
+
+

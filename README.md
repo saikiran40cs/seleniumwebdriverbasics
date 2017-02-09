@@ -6,8 +6,8 @@ This book is a tutorial on how to use selenium for web application automation te
 2. JAVA,
 3. Selenium API, 
 4. testNG
-5. ANT
-6. Jenkins
+5. ExtentReports
+6. ANT
 
 
 

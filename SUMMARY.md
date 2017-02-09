@@ -16,6 +16,7 @@
   * [3.1 JUnit](junit.md)
   * [3.2 Why TestNG over Junit](why-testng-over-junit.md)
   * [3.3 Sample TestNG Class](sample-testng-class.md)
+  * [3.4 Extent Reports](3.4-extent-reports.md)
 * [4. Selenium Advanced](selenium-advanced.md)
   * [4.1 Proxies,Profiles](selenium-advanced/proxiesprofiles.md)
   * [4.2 Handling Multiple Windows](selenium-advanced/handling-multiple-windows.md)

@@ -43,7 +43,7 @@ public class ProxiesCertificates {
         // The below proxy is a string that contains proxy ip and port
         // The port and ip is separated by ":" below you can see port is 80
         Proxy proxy = new Proxy();
-        String proxyIp = "10.76.122.32:80";
+        String proxyIp = "10.122.76.32:80";
 
         // Below lines sets the proxy defiend above
         proxy.setHttpProxy(proxyIp);
@@ -64,14 +64,10 @@ public class ProxiesCertificates {
 
         // Path to the copy of firefox installation. Here you can provide direct
         // path to your firefox installation also.
-        System.setProperty("webdriver.firefox.bin",
-                System.getProperty("user.dir")
-                        + "toolsfirefoxfirefox.exe");
+        System.setProperty("webdriver.firefox.bin",System.getProperty("user.dir")+ "toolsfirefoxfirefox.exe");
 
         // This is the path to the firefox profile you copied in your project.
-        FirefoxProfile fp = new FirefoxProfile(new File(
-                System.getProperty("user.dir")
-                        + "toolsfirefoxDefaultProfile"));
+        FirefoxProfile fp = new FirefoxProfile(new File(System.getProperty("user.dir")+ "toolsfirefoxDefaultProfile"));
 
         // Below code accepts security certificates..
         fp.setPreference("setAcceptUntrustedCertificates", "true");

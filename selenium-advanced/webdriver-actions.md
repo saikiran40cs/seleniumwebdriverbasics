@@ -9,18 +9,15 @@ Mouse Hover first approach
     public void webDriverActions() {
         driver.get("http://someURl.com");
         // Get element to be hovered upon
-        WebElement hoverElement = driver.findElement(By
-                .xpath("//div[@class='hoverElement']"));
+        WebElement hoverElement = driver.findElement(By.xpath("//div[@class='hoverElement']"));
 
         // Perform hover action
         Actions builder = new Actions(driver);
         builder.moveToElement(hoverElement).build().perform();
 
         // Click the element that is now visible after hover
-        driver.findElement(By.xpath("//div[@class='visibleElementOnHover']"))
-                .click();
+        driver.findElement(By.xpath("//div[@class='visibleElementOnHover']")).click();
     }
-
 ```
 
 Mouse Hover second approach
@@ -30,8 +27,7 @@ Mouse Hover second approach
     public void webDriverMouseActions() {
         driver.get("http://someURl.com");
         // Get element to be hovered upon
-        WebElement hoverElement = driver.findElement(By
-                .xpath("//div[@class='hoverElement']"));
+        WebElement hoverElement = driver.findElement(By.xpath("//div[@class='hoverElement']"));
 
         // Perform hover action using Mouse object
         Locatable hoverItem = (Locatable) hoverElement;
@@ -42,7 +38,6 @@ Mouse Hover second approach
         driver.findElement(By.xpath("//div[@class='visibleElementOnHover']"))
                 .click();
     }
-
 ```
 
 Move Slider to an offset
@@ -57,8 +52,7 @@ Move Slider to an offset
         Actions builder = new Actions(driver);
         builder = new Actions(driver);
         // Move 120px on x axis
-        Action dragAndDrop = builder.clickAndHold(sliderElement)
-                .moveByOffset(120, 0).release().build();
+        Action dragAndDrop = builder.clickAndHold(sliderElement).moveByOffset(120, 0).release().build();
         dragAndDrop.perform();
     }
 ```

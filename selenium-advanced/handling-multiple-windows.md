@@ -11,7 +11,7 @@ Below is the code snippet to interact with multiple windows using selenium webdr
         // URLs to be verified..
         String expectedresult[] = { "W3Schools Online Web Tutorials", "Google",
                 "W3Schools Online Web Tutorials",
-                "Sparsh – The Infosys Intranet", "Delicious" };
+                "Sparsh", "Delicious" };
 
         int count = 0;
         // We are fetching all the values in dropdown below and clicking one by

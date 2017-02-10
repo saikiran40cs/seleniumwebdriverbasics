@@ -1,5 +1,7 @@
 # Testing Frameworks {#test-frameworks}
 
+---
+
 Testing framework is necessary to organize our tests. When the count of automated test increases it becomes very tediuos to manage them. Test frameworks provide us with below features.
 
 1. Setting up data before tests run

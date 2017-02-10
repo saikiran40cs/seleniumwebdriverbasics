@@ -4,9 +4,9 @@ Apache ANT – “Another Neat Tool” is a build tool provided by Apache Founda
 
 Step 1. Prior to ANT installation, when you type ant in the command prompt you will get message as shown in below picture.
 
-Step 2. Get the folder locations for ANT and jdk. On my machine I have below paths. Apache Installation –&gt; C:apache-ant-1.8.4 jdk Installation –&gt; C:Program FilesJavajdk1.7.0\_02
+Step 2. Get the folder locations for ANT and jdk. On my machine I have below paths. Apache Installation –&gt; C:apache-ant-&lt;version number&gt; jdk Installation –&gt; C:Program FilesJavajdk&lt;version number&gt;
 
-Step 3. update the below text as per your above paths. JAVA\_HOME : C:Program FilesJavajdk1.7.0\_02 ANT\_HOME : C:apache-ant-1.8.4
+Step 3. update the below text as per your above paths. JAVA\_HOME : C:Program FilesJavajdk&lt;version number&gt;ANT\_HOME : C:apache-ant-&lt;version number&gt;
 
 Step 4. Open your environment variables window \(Right click Computer &gt; properties &gt;Advance System Settings &gt; Click Environment Variable\)
 

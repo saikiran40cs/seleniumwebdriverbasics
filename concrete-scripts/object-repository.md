@@ -35,7 +35,7 @@ public class WithoutOR {
     public void testMethod() throws InterruptedException {
         driver.get(baseUrl + "/");
         driver.findElement(By.linkText("Projects")).click();
-        driver.findElement(By.linkText("Download")).click();
+        driver.findElement(By.linkText("nsaikiran")).click();
         Assert.assertTrue(isElementPresent(By.name("submit")));
     }
 
@@ -53,7 +53,6 @@ public class WithoutOR {
         }
     }
 }
-
 ```
 
 Create A class named ObjectRepo as below.
@@ -63,11 +62,10 @@ package com.selenium;
 
 public interface ObjectRepo {
     public String linkProejct = "Projects";
-    public String linkDownload = "Download";
+    public String linkDownload = "nsaikiran";
     public String donateBtn = "submit";
 
 }
-
 ```
 
 Update the script as below. The script is now totally free of any hardcoding. Whatever changes happen in the UI can be udpated in the object Repository.

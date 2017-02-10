@@ -6,7 +6,7 @@ Create a suite file with name suite.xml in the root directory of your project.
 
 Copy the two jar files to lib folder and add them to build path. copy the testng-results.xsl to the root folder of your project. Once these files are in place create a new file with name Build.xml at the root directory of your project. Copy paste the contents below to this Build.xml
 
-The build can be run through by right click on Build.xml &gt; Run As &gt; Ant Build. Or alternately using command prompt with command line : ant -buildfile **physicalPathofBuild.xml**
+The build can be run through by right click on Build.xml &gt; Run As &gt; Ant Build. Or alternately using command prompt with command line : ant -buildfile **physical Path of Build.xml**
 
 ```
 <project name="ANT_with_TestNGXslt" default="run" basedir=".">
@@ -19,7 +19,7 @@ The build can be run through by right click on Build.xml &gt; Run As &gt; Ant Bu
     <property name="lib.dir" value="Libraries" />
 
     <path id="build.class.path">
-    	<pathelement location="${log4j.dir}" />
+        <pathelement location="${log4j.dir}" />
         <pathelement location="${classes.dir}" />
         <!- You can call either this way if you are sure of the jar files
         <pathelement location="${lib.dir}/testng-6.8.jar" />
@@ -34,7 +34,7 @@ The build can be run through by right click on Build.xml &gt; Run As &gt; Ant Bu
         <pathelement location="${lib.dir}/poi/poi-ooxml-schemas-3.9-20121203.jar" />
         <pathelement location="${lib.dir}/poi/stax-api-1.0.1.jar" />
         <pathelement location="${lib.dir}/poi/xmlbeans-2.3.0.jar" /> -->
-        
+
     </path>
 
     <target name="run">

@@ -32,7 +32,7 @@
   * [5.5 Robust Xpath](concrete-scripts/robust-xpath.md)
 * [6. Continuous Integration](continuous-integration.md)
   * [6.1 ANT Basics](continuous-integration/ant-basics.md)
-  * [6.2 Ant Build.xml](continuous-integration/ant-build.xml.md)
+  * [6.2 Ant Build XSLT.xml](continuous-integration/ant-build.xml.md)
 * [7. WorkArounds](workarounds.md)
   * [7.1 IE Driver NOT working](ie-driver-not-working.md)
   * [7.2 Presence of iFrames](presence-of-iframes.md)

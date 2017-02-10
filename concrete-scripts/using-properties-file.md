@@ -44,8 +44,7 @@ public class ReadPropertyFile {
         Properties props = new Properties();
         FileInputStream fis;
         try {
-            fis = new FileInputStream(System.getProperty("user.dir")
-                    + "propertyFiles" + propFileName);
+            fis = new FileInputStream(System.getProperty("user.dir")+ "propertyFiles" + propFileName);
             props.load(fis);
         } catch (FileNotFoundException e) {
             e.printStackTrace();

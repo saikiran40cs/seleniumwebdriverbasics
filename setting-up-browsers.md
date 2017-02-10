@@ -1,6 +1,6 @@
 # Setting up browsers {#setting-up-browsers}
 
-Selenium supports many browsers, here we provide you with the code to run a few. It is assumed that you have all the necessary jars and tools. Please refer **Eclipse Project Setup **for information on how to setup eclipse project.
+Selenium supports many browsers, here we provide you with the code to run a few. It is assumed that you have all the necessary jars and tools. Please refer [**Eclipse Project Setup**](https://nsaikiran.gitbooks.io/seleniumautomation/content/1.4-eclipse-project-setup.html)** **for information on how to setup eclipse project.
 
 **1. Firefox**
 

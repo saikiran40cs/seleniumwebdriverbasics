@@ -1,6 +1,6 @@
 # TestSuite Parameterization {#testsuite-parameterization}
 
-This tutorial assumes you know how to create a TestSuite. Please visit the post[Preparing TestSuite](http://ajaymore.gitbooks.io/selenium/content/test_frameworks/testsuite.html)to learn about TestSuite. The below Suite xml file passes the parameter “browser” with value “IE” to the script it’s calling.
+This tutorial assumes you know how to create a TestSuite. Please visit the post [Preparing TestSuite](http://ajaymore.gitbooks.io/selenium/content/test_frameworks/testsuite.html) to learn about TestSuite. The below Suite xml file passes the parameter “browser” with value “IE” to the script it’s calling.
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

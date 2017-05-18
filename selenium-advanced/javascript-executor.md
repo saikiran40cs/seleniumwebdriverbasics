@@ -6,9 +6,14 @@ It’s possible to execute your custom JavaScript on a webpage. The code below h
 
 ```
 @Test
+/**
+ * Function to perform a scroll down for the page with a time delay of 50ms
+ * window.scrollBy(0,500) - Horizontal and vertical scroll increments
+ * setTimeout('pageScroll()',50) - scrolls every 50 milliseconds
+ * @author saikiran
+ */
 public void pageScroll() {
     driver.get("http://someURl.com");
-
     // invoke javascript executor
     JavascriptExecutor executor = (JavascriptExecutor) driver;
     executor.executeScript("window.scrollBy(0,500);scrolldelay = setTimeout('pageScroll()',50);");

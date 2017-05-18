@@ -41,12 +41,10 @@ public class AssertionsNVerifications {
         driver.get(baseUrl + "/");
 
         // Assert presence of an element
-        Assert.assertTrue(isElementPresent(By
-                .cssSelector("img[alt=\"Selenium Logo\"]")));
+        Assert.assertTrue(isElementPresent(By.cssSelector("img[alt=\"Selenium Logo\"]")));
 
         // Assert presence of page title
-        Assert.assertTrue("Selenium - Web Browser Automation".equals(driver
-                .getTitle()));
+        Assert.assertTrue("Selenium - Web Browser Automation".equals(driver.getTitle()));
 
         // Assert absence of wrong title
         Assert.assertFalse("Selenium False Title".equals(driver.getTitle()));
@@ -56,8 +54,7 @@ public class AssertionsNVerifications {
          * true or false, based on whether text is present on the page.
          */
         WebElement header = driver.findElement(By.id("header"));
-        System.out.println("Browser Automation text presence = "
-                + isTextPresent(header, "Browser Automation"));
+        System.out.println("Browser Automation text presence = "+ isTextPresent(header, "Browser Automation"));
     }
 
     @AfterTest

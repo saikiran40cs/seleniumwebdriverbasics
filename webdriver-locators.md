@@ -22,17 +22,16 @@ driver.findElement(By.linkText("Link to google"));
 driver.findElement(By.className("form"));
 driver.findElement(By.cssSelector(".form input"));
 driver.findElement(By.xpath("//input[@name='password']"));
-
 ```
 
-Follow the below sequence while choosing the method of choosing element. Choose the one that appears higher in the sequence. Choose xpath only if there is a lot of decision making to be done for complex user interface.
+Follow the below sequence while choosing the method of choosing element. Choose the one that appears higher in the sequence. Choose name only if there is a lot of decision making to be done for complex user interface.
 
 1. id
-2. name
+2. xpath
 3. class
 4. linkText \(if link\)
 5. cssSelector
-6. xpath
+6. name
 
 Create a new package called code and add a class named SampleScript in it. Copy the below code into editor. Run the script and verify it works.
 

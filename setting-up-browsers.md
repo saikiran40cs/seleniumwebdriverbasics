@@ -29,8 +29,8 @@ public class BrowserSetup {
         // Define timeout, selenium will wait maximum of 30 seconds before
         // it quits while searching for an element..
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-                driver.manage().deleteAllCookies(); // Delete cookies
-                driver.manage().window().maximize(); // Maximize window
+        driver.manage().deleteAllCookies(); // Delete cookies
+        driver.manage().window().maximize(); // Maximize window
     }
 
     @Test
@@ -70,11 +70,10 @@ public class SetupIE {
 
     @BeforeTest
     public void initialization() {
-                baseUrl = "http://www.google.co.in/";
+        baseUrl = "http://www.google.co.in/";
         // The path is defined considering you have IEDriverServer_32Bit.exe
         // copied to the path "toolsIE" in your project root directory
-        String path = System.getProperty("user.dir")
-                + "toolsIEIEDriverServer_32Bit.exe";
+        String path = System.getProperty("user.dir")+ "toolsIEIEDriverServer_32Bit.exe";
         System.setProperty("webdriver.ie.driver", path);
         driver = new InternetExplorerDriver();
         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
@@ -117,11 +116,10 @@ public class SetupChrome {
 
     @BeforeTest
     public void initialization() {
-                baseUrl = "http://www.google.co.in/";
+        baseUrl = "http://www.google.co.in/";
         // The path is defined considering you have chromedriver.exe
         // copied to the path "toolschrome" in your project root directory
-        String path = System.getProperty("user.dir")
-                + "tools/chromechromedriver.exe";
+        String path = System.getProperty("user.dir") + "tools/chromechromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);

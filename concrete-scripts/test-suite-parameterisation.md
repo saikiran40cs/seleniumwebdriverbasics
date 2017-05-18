@@ -36,8 +36,7 @@ public class Parameter_Pass {
     public void setup(@Optional("Firefox") String browser) {
         System.out.println("Browser setup here..");
         System.out.println("Accepted parameter value here : " + browser);
-        System.out
-                .println("Please note if the test is run without a parameter from suite the default "
+        System.out.println("Please note if the test is run without a parameter from suite the default "
                         + "value will be taken as Firefox as we have provided this "
                         + "argument to @optional annotation");
     }
@@ -49,8 +48,7 @@ public class Parameter_Pass {
 
     @AfterTest
     public void teardown() {
-        System.out
-                .println("Browser close and other closing activities to finish the Test execution here..");
+        System.out.println("Browser close and other closing activities to finish the Test execution here..");
     }
 }
 ```

@@ -13,31 +13,24 @@ public class SimpleTestNGClassExample {
 
     @BeforeTest
     public void initialization() {
-        System.out.println("This method will be executed once before the"
-                + "testMethod gets called..");
+        System.out.println("This method will be executed once before the"+ "testMethod gets called..");
         System.out.println("All the statements like browser setup, "
-                + "data-variable Initilization etc. should be done here..");
+        + "data-variable Initilization etc. should be done here..");
     }
 
     @Test
     public void testMethod() {
-        System.out.println("This method will be called after the setup method"
-                + "is called..");
-        System.out.println("All the statements related to test execution"
-                + "Should appear here..");
+        System.out.println("This method will be called after the setup method" + "is called..");
+        System.out.println("All the statements related to test execution" + "Should appear here..");
     }
 
     @AfterTest
     public void cleanup() {
-        System.out
-                .println("This method will be called after all previous methods"
-                        + "are executed..");
-        System.out.println("All the statements related to clean up activity"
-                + "or closure activity should be listed here..");
+        System.out.println("This method will be called after all previous methods"+ "are executed..");
+        System.out.println("All the statements related to clean up/closure activity should be listed here..");
     }
 
 }
-
 ```
 
 Testng works by looking for Annotation in the code, name @BeforeTest, @Test, @AfterTest and so on. The code in these annotations is run sequentially.

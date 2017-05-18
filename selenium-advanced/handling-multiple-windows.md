@@ -9,8 +9,7 @@ Below is the code snippet to interact with multiple windows using selenium webdr
         WebDriver driver = new FirefoxDriver();
         String newwindowtitle = null;
         // URLs to be verified..
-        String expectedresult[] = { "W3Schools Online Web Tutorials", "Google",
-                "W3Schools Online Web Tutorials",
+        String expectedresult[] = { "W3Schools Online Web Tutorials", "Google","W3Schools Online Web Tutorials",
                 "Sparsh", "Delicious" };
 
         int count = 0;

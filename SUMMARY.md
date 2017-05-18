@@ -18,7 +18,7 @@
   * [3.3 Sample TestNG Class](sample-testng-class.md)
   * [3.4 Extent Reports](3.4-extent-reports.md)
   * [3.5 Sample Test Suite](3.5-sample-test-suite.md)
-* [4. Selenium Advanced](selenium-advanced.md)
+* [4. Selenium Prospects](selenium-advanced.md)
   * [4.1 Proxies,Profiles](selenium-advanced/proxiesprofiles.md)
   * [4.2 Handling Multiple Windows](selenium-advanced/handling-multiple-windows.md)
   * [4.3 Webdriver Actions](selenium-advanced/webdriver-actions.md)

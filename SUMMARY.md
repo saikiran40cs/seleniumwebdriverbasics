@@ -24,7 +24,7 @@
   * [4.3 Webdriver Actions](selenium-advanced/webdriver-actions.md)
   * [4.4 Generate Logs](selenium-advanced/generate-logs.md)
   * [4.5 Javascript executor](selenium-advanced/javascript-executor.md)
-  * [4.6 Handling Multiple frames](selenium-advanced/46-handling-multiple-frames.md)
+  * [4.6 Handling frames](selenium-advanced/46-handling-multiple-frames.md)
 * [5. Concrete Scripts](concrete-scripts.md)
   * [5.1 Test Suite parameterisation](concrete-scripts/test-suite-parameterisation.md)
   * [5.2 Object Repository](concrete-scripts/object-repository.md)

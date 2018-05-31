@@ -1,8 +1,0 @@
-# TestNG over Junit {#testng-over-junit}
-
----
-
-testNG has some obvious advantages over Junit. The link provided here is a detailed analysis of how testNG scores over Junit. testNG is very easy to understand and addresses some of the key Junit issues. Please click the link
-
-[Why TestNG?](http://kaczanowscy.pl/tomek/sites/default/files/testng_vs_junit.txt.slidy_.html#%281%29http://) for details.
-
